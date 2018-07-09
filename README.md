@@ -2,6 +2,7 @@ class GetSet
 {
 	int regno;
 	String city;
+	int marks;
 	public void setRegno(int x)
 	{
 		regno = x;
@@ -22,6 +23,7 @@ class GetSet
 	{
 		System.out.println(regno);
 		System.out.println(city);
+		System.out.println(marks);
 	}
 
 	public static void main(String[] args) 
@@ -29,6 +31,7 @@ class GetSet
 		GetSet obj = new GetSet();
 		obj.setRegno(4258);
 		obj.setCity("bangalore");
+		obj.setMarks(925);
 		obj.display();
 	}
 }
